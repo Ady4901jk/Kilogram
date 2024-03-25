@@ -1,0 +1,30 @@
+/* Include Tailwind base styles */
+@import 'tailwindcss/base';
+
+/* Include Tailwind component styles */
+@import 'tailwindcss/components';
+
+/* Include Tailwind utility styles */
+@import 'tailwindcss/utilities';
+
+body {
+  overflow: hidden;
+}
+
+.bg-image {
+  background-image: url("../assets/main-bg.png");
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Example of using Tailwind utility classes */
+.selected-user {
+  background-color: #718096;  /* This line is not valid Tailwind CSS syntax */
+}
