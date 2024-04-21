@@ -12,7 +12,7 @@ const app = express();
 const server = http.createServer(app);
 const { PORT } = process.env || 4000;
 app.use(cors({
-  origin: "https://kilogram-gqndd9kdn-adityas-projects-6d993e50.vercel.app" 
+  origin: "https://kilogram-mfxu16wxh-adityas-projects-6d993e50.vercel.app" 
 }));
 app.use(express.json());
 mongoose.connect(process.env.MONGO_URL!);
